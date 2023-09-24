@@ -1,0 +1,22 @@
+function main() void {
+    var name string = "tiravat";
+    var age int32 = 20;
+    var height float32 = get_height();
+    var friends Array<string> = get_friends();
+}
+
+function get_height(x float32 = 1.7) float32 {
+    var height float32 = x * 100;
+    return height;
+}
+
+function get_friends() Array<string> {
+    var friends Array<string> = Array<string>[
+        "elon musk",
+        "bill gates",
+        "mark zuckerberg",
+        "jeff bezos",
+    ]
+    return friends;
+}
+

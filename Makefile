@@ -1,8 +1,8 @@
 make:
-	gcc -o a.out ./main.c; ./a.out
+	gcc -o a.out ./src/main.c; ./a.out
 
 build:
-	gcc -o a.out ./main.c
+	gcc -o a.out ./src/main.c
 
 clean:
 	rm ./a.out
